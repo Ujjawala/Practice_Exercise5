@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class WordCount {
+public class WordFrequency {
     public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
