@@ -35,7 +35,21 @@ public class UpdateArrayListTest {
         updateArrayList.updateList(list, "Apple", "Kiwi");
         updateArrayList.updateList(list, "Melon", "Mango");
         Assert.assertEquals(expected, list);
+        Assert.assertTrue(expected.equals(list));
     }
+
+    @Test
+    public void updateListFailure() {
+        expected.add("Kiwi");
+        expected.add("Grape");
+        expected.add("Mango");
+        expected.add("Berry");
+        updateArrayList.updateList(list, "Apple", "Melon");
+        updateArrayList.updateList(list, "Melon", "Mango");
+//        Assert.assertEquals(expected, list);
+        Assert.assertFalse(expected.equals(list));
+    }
+
 
     @Test
     public void emptyList() {

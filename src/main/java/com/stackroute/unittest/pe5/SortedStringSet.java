@@ -13,6 +13,10 @@ public class SortedStringSet {
         while (iterator.hasNext()) {
             result.add(iterator.next());
         }
-        return result;
+        if (result.isEmpty()) {
+            return null;
+        } else {
+            return result;
+        }
     }
 }

@@ -13,6 +13,10 @@ public class StringOccurrence2OrMore {
                 map.put(s, false);
             }
         }
-        return map;
+        if (map.isEmpty()) {
+            return null;
+        } else {
+            return map;
+        }
     }
 }

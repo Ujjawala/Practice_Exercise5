@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -26,23 +27,49 @@ public class KeysValuesPairTest {
         map.put("val3", "c");
         map.put("val4", "c#");
     }
+
     @After
     public void tearDown() {
         expected = null;
         map = null;
     }
+
     @Test
     public void replaceValues() {
-
-
         Assert.assertThat(keysValuesPair.replaceValues(map), is(expected));
-        Assert.assertThat(keysValuesPair.replaceValues(map).size(), is(4));
-        Assert.assertEquals(" ", keysValuesPair.replaceValues(map).get("val1"));
-
     }
+
+    @Test
+    public void replaceValuesSize() {
+        Assert.assertThat(keysValuesPair.replaceValues(map).size(), is(4));
+    }
+
+    @Test
+    public void replaceValuesSizeFailure() {
+        Assert.assertNotEquals(keysValuesPair.replaceValues(map).size(), 5);
+    }
+
     @Test
     public void checkValues() {
-//        System.out.println("data" + keysValuesPair.replaceValues(map).get("val2"));
-        Assert.assertEquals(expected.get("val2"), keysValuesPair.replaceValues(map).get("val2"));
+        Map<String, String> actual = keysValuesPair.replaceValues(map);
+        Assert.assertEquals(expected.get("val1"), actual.get("val1"));
+        Assert.assertEquals(expected.get("val2"), actual.get("val2"));
+    }
+
+    @Test
+    public void checkValuesFailure() {
+        Map<String, String> actual = keysValuesPair.replaceValues(map);
+        Assert.assertNotEquals("java", actual.get("val1"));
+        Assert.assertNotEquals("c++", actual.get("val2"));
+    }
+
+    @Test
+    public void replaceValuesNull() {
+        Map<String, String> map = new HashMap<>();
+        Assert.assertNull(keysValuesPair.replaceValues(map));
+    }
+    @Test
+    public void replaceValuesNotNull() {
+        Assert.assertNotNull(keysValuesPair.replaceValues(map));
     }
 }

@@ -3,11 +3,13 @@ package com.stackroute.unittest.pe5;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+
+import static org.junit.Assert.assertEquals;
+
 public class MainTestTest {
-    MainTest mainTest = new MainTest();
+    private MainTest mainTest = new MainTest();
     @Test
     public void sortStudent() {
         List<Student> expected = new ArrayList<>();
@@ -31,7 +33,9 @@ public class MainTestTest {
         student4.setAge(25);
         student4.setId(4);
         expected.add(student4);
-        assertThat(mainTest.sortStudent(), is(expected));
-        assertThat(mainTest.sortStudent(), is(4));
+        Collections.sort(expected, new StudentSorter());
+        assertEquals(expected, mainTest.sortStudent());
+//        Assert.assertThat(mainTest.sortStudent(), is(expected));
+//        assertThat(mainTest.sortStudent(), is(4));
     }
 }
