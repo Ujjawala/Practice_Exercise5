@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf31371-3ec7-4bc8-8df1-44c3ea3c7d56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PE5/com/stackroute/unittest/pe5/SortedStringSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PE5/com/stackroute/unittest/pe5/SortedStringSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PE5/com/stackroute/unittest/pe5/StudentSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PE5/com/stackroute/unittest/pe5/StudentSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PE5/com/stackroute/unittest/pe5/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PE5/com/stackroute/unittest/pe5/SortedStringSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PE5/com/stackroute/unittest/pe5/SortedStringSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PE5/com/stackroute/unittest/pe5/UpdateArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PE5/com/stackroute/unittest/pe5/UpdateArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/PE5/com/stackroute/unittest/pe5/UpdateArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/PE5/com/stackroute/unittest/pe5/WordCountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/KeysValuesPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/KeysValuesPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/SortedStringSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/SortedStringSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/StringOccurrence2OrMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/StringOccurrence2OrMore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/WordFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/KeysValuesPairTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/KeysValuesPairTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/MainTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/MainTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/SortedStringSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/SortedStringSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/StringOccurrence2OrMoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/StringOccurrence2OrMoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/UpdateArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/pe5/UpdateArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/UpdateArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/UpdateArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/WordCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/WordFrequencyTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1cf31371-3ec7-4bc8-8df1-44c3ea3c7d56" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/MainTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="409">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,7 +174,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546493182984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546493384330" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -328,9 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTestTest_sortStudent - 2019.01.03 at 10h 30m 11s.xml">
-      <configuration name="MainTestTest.sortStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTestTest_sortStudent - 2019.01.03 at 10h 30m 21s.xml">
       <configuration name="MainTestTest.sortStudent" configurationId="JUnit" />
     </history-entry>
@@ -358,10 +333,12 @@
     <history-entry file="MainTestTest_sortStudent - 2019.01.03 at 10h 44m 26s.xml">
       <configuration name="MainTestTest.sortStudent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTestTest_sortStudent - 2019.01.03 at 10h 55m 17s.xml">
+      <configuration name="MainTestTest.sortStudent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2434158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,7 +349,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27198696" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27198696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/pe5/MainTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="409">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
